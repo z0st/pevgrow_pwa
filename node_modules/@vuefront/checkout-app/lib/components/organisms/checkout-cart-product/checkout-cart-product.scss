@@ -1,0 +1,21 @@
+.vf-o-checkout-cart-product {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  margin-bottom: 20px;
+  &__thumb {
+  }
+  &__price {
+    padding-right: 30px;
+  }
+  &__quantity {
+    flex: 1;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+  }
+  &__actions {
+
+  }
+}
