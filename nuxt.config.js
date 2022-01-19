@@ -73,9 +73,6 @@ export default {
       new LodashModuleReplacementPlugin({
         shorthands: true,
       }),
-      new webpack.optimize.LimitChunkCountPlugin({
-        maxChunks: 4
-      })
     ],
   },
 };
